@@ -17,7 +17,7 @@
             animation: 'fade',
             animationDuration: 600,
             slideshow: true,
-            slideshowSpeed: 7000,
+            slideshowSpeed: 3000,
             slideToStart: 0,
             navigationControl: true,
             paginationControl: true,
@@ -276,7 +276,7 @@
                 clearTimeout(slideshowTimeout);
                 loadSlide(i);
             });
-                        
+           
         });
     }
     
